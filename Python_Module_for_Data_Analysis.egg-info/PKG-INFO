@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: Python-Module-for-Data-Analysis
+Version: 0.1
+Summary: EDSA: Python module for data Analysis package
+Home-page: https://github.com/Enyaude/Python_Module_for_Data_Analysis.git
+Author: <Enyaude>
+Author-email: <enyaudesamuel@hotmail.com>
+License: MIT
+Platform: UNKNOWN
+
+#                              Data Analysis Module
+## Overview
+This repository contains the code and modules created for a data analysis project aimed at analyzing agricultural data from Maji Ndogo farm. The project involves various tasks like creating python scripts or module such as data ingestion, data cleaning, hypothesis testing, visualization, and statistical analysis module and automating the farm data analysis process.
+
+## Project Structure
+The project structure is as follows:
+
+data_ingestion.py: This module contains functions for ingesting data from different sources such as SQL databases and web CSV files.
+field_data_processor.py: This module includes a class FieldDataProcessor that processes field data, performs data cleaning, and merges weather station data with the main dataset.
+analysis.py: This module contains functions for conducting statistical analysis, hypothesis testing, and generating visualizations.
+
+## Setup
+To set up the project, follow these steps:
+
+Clone the repository to your local machine.
+Install the required dependencies by running pip install -r requirements.txt.
+Run the main script or individual modules as needed.
+
+## Usage
+To use the project:
+
+Import the necessary modules and functions.
+Load the dataset using data ingestion functions.
+Process the data using the FieldDataProcessor class.
+Conduct statistical analysis and hypothesis testing using the functions provided in the analysis.py module.
+Visualize the data using various plotting libraries such as Matplotlib and Seaborn.
+
+Contributors
+Enyaude Samuel - Data Science
+ALX Nigeria - Community
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
